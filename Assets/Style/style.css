@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "SF Pro";
+    src: url("../Fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+}
+
+* {
+    font-family: 'SF Pro', Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.título {
+    background-color: rgb(46, 46, 46);
+    font-family: "SF Pro";
+    font-size: 18;
+    color: white;
+    height: 60;
+    display: flex;
+    align-items: center;
+    letter-spacing: 7;
+}
+#titulo {
+    margin-left: 40;       
+}
+.banner {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    height: 400;
+    background-image: url("https://i.pinimg.com/736x/5c/ee/af/5ceeafdc811d2269821fb03df29374ff.jpg");
+    background-size: cover;
+}
+.banner iframe {
+    height: 300;
+    width: 900;
+    margin-left: 120;
+    padding-top: 40;
+}
+.apresentacaotxt {
+    size: 200;
+}
+.apresentacaotit, .apresentacaodesc{
+    color: white;
+    padding-left: 100;
+    padding-top: 20;
+}
+.apresentacaotit h1 {
+    background: linear-gradient(90deg, rgba(220,0,255,0.9598214285714286) 9%, rgba(121,9,101,1) 45%, rgba(2,0,36,1) 98%);
+}
+.apresentacaodesc {
+    color: white;
+    font-size: 16;
+    margin-right: 150px;
+    line-height: 20px;
+    font-weight: 100;
+}
+nav a {
+    margin-top: 20;
+    border: 2px solid rgb(146, 73, 153);
+    border-radius: 1000;
+    padding: 7;
+    text-decoration: none;
+    background-color: rgb(138, 69, 145);
+    color: rgb(190, 190, 190);
+}
+.compreaq {
+    border-radius: 1000;
+    align-items: flex-end;
+    margin-left: 100;
+    margin-top: 15;
+}
+.banneroptions {
+    display: flex;
+    margin-left: 120;
+    margin-right: 120;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner1, .banner2, .banner3 {
+    flex: 1;
+    padding: 20;
+    color: rgb(230, 230, 230);
+    
+}
+.banner1 {
+    background: rgb(189, 67, 189);
+}
+.banner2 {
+    background-color: rgb(185, 108, 185) ;
+}
+.banner3 {
+    background-color: rgb(184, 138, 184);
+};
